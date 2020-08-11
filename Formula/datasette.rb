@@ -6,7 +6,7 @@ class Datasette < Formula
   version "0.46"
   sha256 "eb5e5dcb8a0957ed1def841108576afb15a38ce61d222bf54a25d827999ad521"
 
-  depends_on "python"
+  depends_on "python@3.8"
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/2b/64/437053d6a4ba3b3eea1044131a25b458489320cb9609e19ac17261e4dc9b/aiofiles-0.5.0.tar.gz"
