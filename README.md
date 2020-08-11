@@ -3,7 +3,7 @@
 To install [Datasette](https://github.com/simonw/datasette) using Homebrew:
 
     brew tap simonw/datasette
-    brew install simon/datasette/datasette
+    brew install simonw/datasette/datasette
 
 You can confirm that the install worked using:
 
