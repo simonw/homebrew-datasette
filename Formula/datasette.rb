@@ -120,7 +120,6 @@ class Datasette < Formula
 
   def install
     virtualenv_install_with_resources
-    bin.install "datasette"
   end
 
   test do
