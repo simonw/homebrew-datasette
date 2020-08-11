@@ -28,11 +28,6 @@ class Datasette < Formula
     sha256 "d9560e8e8dfa44b3562fbc9425042a0fd6d21956fcc2db0077f63f34253ab904"
   end
 
-  resource "datasette" do
-    url "https://files.pythonhosted.org/packages/96/e2/abc76ee41d9895145e43323c591aa77f2b27959deb640278fc1a43f6b222/datasette-0.46.tar.gz"
-    sha256 "eb5e5dcb8a0957ed1def841108576afb15a38ce61d222bf54a25d827999ad521"
-  end
-
   resource "h11" do
     url "https://files.pythonhosted.org/packages/34/5a/abaa557d20b210117d8c3e6b0b817ce9b329b2e81f87612e60102a924323/h11-0.9.0.tar.gz"
     sha256 "33d4bca7be0fa039f4e84d50ab00531047e53d6ee8ffbc83501ea602c169cae1"
