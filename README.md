@@ -14,7 +14,11 @@ You can confirm that the install worked using:
 
 [Datasette plugins](https://datasette.readthedocs.io/en/stable/plugins.html) need to be installed into the same Python environment as `datasette`.
 
-You can install plugins into the correct environment using the `pip` command at `/usr/local/opt/datasette/libexec/bin/pip` - for example:
+The easiest way to install them is to use the new `datasette install` command:
+
+    datasette install datasette-vega
+
+If you want to install them using `pip` instead you can do this:
 
     /usr/local/opt/datasette/libexec/bin/pip install datasette-vega
 
