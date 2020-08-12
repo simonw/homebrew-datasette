@@ -129,5 +129,6 @@ class Datasette < Formula
 
   test do
     assert_match "15", shell_output("#{bin}/datasette --get '/:memory:.csv?sql=select+3*5'")
+    assert_match "<title>Datasette:", shell_output("#{bin}/datasette --get '/'")
   end
 end
