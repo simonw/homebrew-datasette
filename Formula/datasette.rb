@@ -123,6 +123,6 @@ class Datasette < Formula
   end
 
   test do
-    system bin/"datasette", "--help"
+    assert_match "15", shell_output("#{bin}/datasette --get '/:memory:.csv?sql=select+3*5'")
   end
 end
