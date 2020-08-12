@@ -4,6 +4,7 @@ class SqliteUtils < Formula
   homepage "https://sqlite-utils.readthedocs.io/"
   url "https://files.pythonhosted.org/packages/91/c8/c9caccfb59f9deac5e160a2d7a9c15e631d455cf27c48165189de644a8e3/sqlite-utils-2.15.1.tar.gz"
   sha256 "ca71a92bb96304323edc5b0fd1130f93d0ffe5083cd5a99b67e596efafee7220"
+  license "Apache-2.0"
 
   depends_on "python@3.8"
 
